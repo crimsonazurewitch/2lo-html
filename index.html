@@ -11,16 +11,36 @@
       <header>
         <p><a id="st">Spis treści</a></p>
           <ol>
-            <li>Kodowanie paragrafów</li>
-            <li>Listy, czyli wykazy</li>
-            <li>Odnośniki (linki, hiperłącza, hiperlinki)</li>
+            <li>
+              <a href="#sec1">Kodowanie paragrafów</a>
+              <ol style="list-style-type: lower-alpha; ">
+                <li><a href="#1.1">Formatowanie za pomocą poleceń</a></li>
+                <li><a href="#1.2">Kolory w HTMLu.</a></li>
+                <li><a href="#1.3">Nietypowe paragrafy</a></li>
+              </ol>
+            </li>
+            <li><a href="#sec2">Listy, czyli wykazy</a>
+              <ol style="list-style-type: lower-alpha; ">
+                <li><a href="#2.1">Listy numerowane</a></li>
+                <li><a href="#2.2">Listy punktowane</a></li>
+                <li><a href="#2.3">Listy definicji</a></li>
+                <li><a href="#2.4">Lista wielopoziomowa</a></li>
+              </ol>
+            </li>
+            <li><a href="#sec3">Odnośniki (linki, hiperłącza, hiperlinki)</a>
+              <ol style="list-style-type: lower-alpha; ">
+                <li><a href="#3.1">Odnośnik tekstowy do innego serwisu (innej strony)</a></li>
+                <li><a href="#3.2">Odnośniki złożone i funkcjonalne</a></li>
+                <li><a href="#3.3">Inne odnośniki</a></li>
+              </ol>
+            </li>
           </ol>
       </header>
       <section>
-        <h2>Kodowanie paragrafów (h2)</h2>
+        <h2><a id="sec1">Kodowanie paragrafów (h2)</a></h2>
         <div>
           <article>
-            <h3>Formatowanie za pomocą poleceń (h3)</h3>
+            <h3><a id="#1.1">Formatowanie za pomocą poleceń (h3)</a></h3>
             <p>Nagłówki artykułu mogą mieć 4 poziomy od h3 do h6.</p>
             <p>Treść, dużo treści, jeszcze więcej treści...</p>
             <p>Nowy akapit tej strony</p>
@@ -69,10 +89,11 @@
               <p>To jest bardzo krótki paragraf w bloku.</p>
               <p>To jest bardzo krótki paragraf w bloku.</p>
             </div>
+            <p><a href="#st">Wróć na początek</a></p>
             <hr>
           </article>
           <article>
-            <h3>Kolory w HTMLu.</h3>
+            <h3><a id="1.2">Kolory w HTMLu.</a></h3>
             <p>HTML ma 16 kolory podstawowe:
               black, white,
               <span style="color: red;" >red</span>, 
@@ -97,10 +118,11 @@
             <p>Rozszerzona paleta barw HTML z nazwami znajduję się <a href="https://www.w3schools.com/colors/colors_names.asp">tutaj</a>.</p>
             <p>Pełna paleta barw HTML kodowana w standardzie RGB w kodowaniu HEX i inne: 0-9 + A-F — zapis to znak # i 2 cyfry na każdy kolor składowy, np. <span style="color: #FF0000; ">#FF0000</span></p>
             <p>Pełna paleta barw HTML kodowana w standardzie RGB w kodowaniu DEC: <span style="color: RGB(0,0,255); ">RGB(0,0,255)</span></p>
+            <p><a href="#st">Wróć na początek</a></p>
             <hr>
           </article>
           <article>
-            <h3>Nietypowe paragrafy</h3>
+            <h3><a id="1.3">Nietypowe paragrafy</a></h3>
             <p>Kliknij w nazwisko, aby dowiedzieć się więcej o człowieku:</p>
             <details> <!-- kontener treści ukrytej -->
               <summary>Cywiński Kazimierz</summary> <!-- inicjator kontenera -->
@@ -114,6 +136,7 @@
             <address>Michał Werkowski<br>82-300 Elbląg<br>ul. Królewiecka 42<br>e-mail: email@email.com</address>
             <p>&nbsp;</p>
             <blockquote>Litwo, Ojczyzno moja,<br> Ty jesteś, jak zdrowie...</blockquote>
+            <p><a href="#st">Wróć na początek</a></p>
             <hr>
           </article>
           <aside>
@@ -121,10 +144,10 @@
         </div>
       </section>
       <section>
+        <h2><a id="sec2">Listy, czyli wykazy</a></h2>
         <div>
-          <h2>Listy, czyli wykazy</h2>
           <article>
-            <h3>Listy numerowane</h3>
+            <h3><a id="2.1">Listy numerowane</a></h3>
             <ol> <!-- ordinary, uporządkowana -->
               <li>Pierwszy element</li>
               <li>Drugi element</li>
@@ -138,10 +161,11 @@
               <li>Czwarty element</li>
             </ol>
             <p>Inne style list: lower-alpha, upper-roman, lower-roman, decimal (domyślny), decimal-leading-zero, upper-greek, lower-greek, hebrew, armenian, georgian</p>
+            <p><a href="#st">Wróć na początek</a></p>
             <hr>
           </article>
           <article>
-            <h3>Listy punktowane</h3>
+            <h3><a id="2.2">Listy punktowane</a></h3>
             <ul> <!-- unordinary, nieuporządkowana // domyślny: disc -->
               <li>Jakiś element</li>
               <li>Jakiś dodatkowy element</li>
@@ -174,20 +198,22 @@
               <li>Jakiś unikatowy element</li>
               <li>Jakiś dziesiąty element</li>
             </ul>
+            <p><a href="#st">Wróć na początek</a></p>
             <hr>
           </article>
           <article>
-            <h3>Listy definicji</h3>
+            <h3><a id="2.3">Listy definicji</a></h3>
             <dl>
               <dt>Cywiński Kazimierz</dt>
               <dd>Były uczeń II LO w Elblągu, obecnie kierowca Formuły 1 z największą ilością poll position w jednym sezonie.</dd>
               <dt>Jarmużewski Filip</dt>
               <dd>Były uczeń II LO w Elblągu, obecnie pracownik ESA, odpowiedzialny za cyberbezpieczeństwo lotów kosmicznych.</dd>
             </dl>
+            <p><a href="#st">Wróć na początek</a></p>
             <hr>
           </article>
           <article>
-            <h3>Lista wielopoziomowa</h3>
+            <h3><a id="2.4">Lista wielopoziomowa</a></h3>
             <ol style="list-style-type: upper-roman; ">
               <li>Punkt pierwszy - poziom pierwszy</li>
               <li>Punkt drugi - poziom pierwszy
@@ -210,8 +236,8 @@
                 </ol>
               </li>
               <li>Punkt trzeci - poziom pierwszy</li>
-              <li>Punkt czwarty - poziom pierwszy</li>
-              <ol style="list-style-type: decimal; ">
+              <li>Punkt czwarty - poziom pierwszy
+                <ol style="list-style-type: decimal; ">
                   <li>Punkt pierwszy - poziom drugi w punkcie czwartym</li>
                   <li>Punkt drugi - poziom drugi w punkcie czwartym
                     <ol style="list-style-type: lower-alpha">
@@ -222,8 +248,10 @@
                   </li>
                   <li>Punkt trzeci - poziom drugi w punkcie drugim</li>
                 </ol>
+              </li>
               <li>Punkt piąty - poziom pierwszy</li>
             </ol>
+            <p><a href="#st">Wróć na początek</a></p>
             <hr>
           </article>
           <aside>
@@ -231,10 +259,10 @@
         </div>
       </section>
       <section>
-        <h2>Odnośniki (linki, hiperłącza, hiperlinki)</h2>
+        <h2><a id="sec3">Odnośniki (linki, hiperłącza, hiperlinki)</a></h2>
         <div>
           <article>
-            <h3>Odnośnik tekstowy do innego serwisu (innej strony)</h3>
+            <h3><a id="3.1">Odnośnik tekstowy do innego serwisu (innej strony)</a></h3>
             <!--
               Budowa URL:
               protokół transmisji (http, https, ftp, itp.)
@@ -253,15 +281,21 @@
             <p>Wielkość liter w linkach (href) ma znaczenie i zależy od systemu operacyjnego serwera treści.</p>
             <p>Jeśli chcesz w linkach wyjść do folderu wyższego poziomu, użyj odnośnika "../".</p>
             <p>Przejście do strony głównej nnego serwisu nie wymaga wpisania nazwy pliku, ponieważ bedzie on zawsze nazwany "index". Rozszerzenie nie ma znaczenia. -> <a href="https://onet.pl">ONET</a></p>
+            <p><a href="#st">Wróć na początek</a></p>
             <hr>
           </article>
           <article>
-            <h3>Odnośniki złożone i funkcjonalne</h3>
+            <h3><a id="3.2">Odnośniki złożone i funkcjonalne</a></h3>
             <p>Kotwice (anchor) wewnętrzne - miejsca w pliku, do których możemy przejść bezpośrednio.</p>
             <p>Przejdź do strony <a href="./podstrony/trzecia.html">trzecia.html</a> albo przejdź do tej strony od razu do <a href="./podstrony/trzecia.html#szesc">szóstego paragrafu</a>.</p>
             <p>Kotwicę ustawiamy poleceniem anchor z opcją "id".</p>
             <p><a href="#st">Wróć na początek</a></p>
             <hr>
+          </article>
+          <article>
+            <h3><a id="3.3">Inne odnośniki</a></h3>
+            <p>Mamy odnośniki od innych protokołów</p>
+            <p><a href="#st">Wróć na początek</a></p>
           </article>
         <aside>
         </aside>
