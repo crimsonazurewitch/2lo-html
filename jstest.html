@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  <h1>JavaScript Project</h1>
+  <h2>Counter</h2>
+
+  <p id="count" style="font-size:40px;">0</p>
+
+  <button onclick="increaseCount()">+</button>
+  <button onclick="decreaseCount()">-</button>
+
+<script>
+// Declare the counter
+let count = 0;
+
+// Function to display the counter
+function updateCount() {
+  if (count > 9) {
+    count = 0
+  }
+  if (count < 0) {
+    count = 9
+  }
+  document.getElementById("count").innerHTML = count;
+}
+
+// Function to increase the counter
+function increaseCount() {
+  count++;
+  updateCount();
+}
+
+// Function to decrease the counter
+function decreaseCount() {
+  count--;
+  updateCount();
+}
+
+
+</script>
+
+</body>
+</html>
